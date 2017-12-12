@@ -33,9 +33,8 @@ public class ClientHelper extends Thread {
 	private boolean primeTest(BigInteger num) {
 		BigInteger val;
 
-		//TODO: get values from AWS database
-
-		//TODO: figure out how to loop through values returned from AWS database
+		//TODO: get values from API
+		//TODO: figure out how to loop through those values
 			if(num.mod(val).equals(zero)) {
 				return false;
 			}
